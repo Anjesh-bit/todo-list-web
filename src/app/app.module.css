@@ -1,0 +1,93 @@
+.container {
+  height: 100vh;
+}
+
+.body {
+  text-align: center;
+}
+
+.header {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 4px;
+  height: 100px;
+  width: 100%;
+  color: white;
+  padding: 10px;
+}
+
+.text {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+}
+
+.subText {
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 8px;
+}
+
+.searchContainer {
+  display: grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 6px;
+  padding-top: 10px;
+  grid-template-areas:
+    "search0 search0 search0 search1 search1 search1"
+    "search2 search2 search3 search3 search4 search4"
+    "search2 search2 search3 search3 search4 search4"
+    "search2 search2 search3 search3 search4 search4";
+}
+
+.pagination-root {
+  --pagination-active-bg: #f3f3f3;
+  --pagination-active-color: #d75a8b;
+}
+
+.pagination-root > div {
+  margin: 0px 8px;
+  gap: 0;
+  border-radius: 2px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+  border-left: 1px solid #f8f8f8;
+  background: #fff;
+}
+
+.pagination-control {
+  flex: 1;
+  border-radius: 0;
+  min-height: 40px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: 1px solid #f8f8f8;
+  padding: 10px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  &:hover {
+    transform: none;
+  }
+}
+
+.pagination-control svg {
+  color: #959595;
+}

@@ -1,0 +1,38 @@
+name: Verify Pull Request
+
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+          cache-dependency-path: package-lock.json
+
+      - name: Run npm install
+        run: npm i
+
+      - name: Run npm lint
+        run: npm run lint
+
+      - name: Get Test Coverage Report
+        run: npm run test:cov
+
+      - name: Run build on merge
+        run: |
+          export NODE_OPTIONS=--max-old-space-size=16384
+          npm run build

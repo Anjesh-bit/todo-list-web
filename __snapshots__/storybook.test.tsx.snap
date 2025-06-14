@@ -1,0 +1,886 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Storybook Snapshots > 'Components/Carousel' > Primary 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="swiper swiper-initialized swiper-horizontal"
+  >
+    <div
+      class="swiper-wrapper"
+      style="transition-duration: 0ms; transition-delay: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+    >
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="0"
+      >
+        <img
+          alt="First Slide"
+          src="/images/carousel/https://via.placeholder.com/800x400.png?text=Slide+1"
+          width="500"
+        />
+      </div>
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="1"
+      >
+        <img
+          alt="Second Slide"
+          src="/images/carousel/https://via.placeholder.com/800x400.png?text=Slide+2"
+          width="500"
+        />
+      </div>
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="2"
+      >
+        <img
+          alt="Third Slide"
+          src="/images/carousel/https://via.placeholder.com/800x400.png?text=Slide+3"
+          width="500"
+        />
+      </div>
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="3"
+      >
+        <img
+          alt="Fourth Slide"
+          src="/images/carousel/https://via.placeholder.com/800x400.png?text=Slide+4"
+          width="500"
+        />
+      </div>
+    </div>
+    <div
+      class="swiper-button-prev"
+    />
+    <div
+      class="swiper-button-next"
+    />
+    <div
+      class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
+    >
+      <span
+        class="swiper-pagination-bullet swiper-pagination-bullet-active"
+      />
+      <span
+        class="swiper-pagination-bullet"
+      />
+      <span
+        class="swiper-pagination-bullet"
+      />
+      <span
+        class="swiper-pagination-bullet"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storybook Snapshots > 'Components/Drawer' > Closed 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <button>
+    Open Drawer
+  </button>
+</div>
+`;
+
+exports[`Storybook Snapshots > 'Components/Drawer' > Opened 1`] = `
+<div
+  aria-hidden="true"
+  data-focus-id="mantine-i"
+>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+</div>
+`;
+
+exports[`Storybook Snapshots > 'Components/SearchFilter' > Primary 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="_gridContainer_897752"
+  >
+    <div
+      class="_gridItem_897752"
+      style="grid-area: searchFilter1;"
+    >
+      <button
+        class="mantine-focus-auto mantine-active _gridButton_897752 m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+        data-block="true"
+        data-size="compact-sm"
+        style="--button-height: var(--button-height-compact-sm); --button-padding-x: var(--button-padding-x-compact-sm); --button-fz: var(--mantine-font-size-sm); --button-color: var(--mantine-color-white);"
+        type="button"
+      >
+        <span
+          class="m_80f1301b mantine-Button-inner"
+        >
+          <span
+            class="m_811560b9 mantine-Button-label"
+          >
+            <svg
+              fill="none"
+              height="19"
+              style="margin-right: 6px;"
+              viewBox="0 0 18 19"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                id="Frame"
+              >
+                <path
+                  d="M9 2.17188C6.2115 2.17188 3.9375 4.44588 3.9375 7.23438C3.9375 8.02563 4.2585 8.93313 4.6935 9.92388C5.1285 10.9146 5.68875 11.9669 6.258 12.9471C6.97451 14.1765 7.73679 15.3786 8.54325 16.5509L9 17.2184L9.4575 16.5509C9.4575 16.5509 10.6042 14.9091 11.742 12.9471C12.3112 11.9669 12.8715 10.9146 13.3065 9.92388C13.7415 8.93313 14.0625 8.02563 14.0625 7.23438C14.0625 4.44588 11.7885 2.17188 9 2.17188ZM9 3.29688C11.1825 3.29688 12.9375 5.05188 12.9375 7.23438C12.9375 7.68438 12.696 8.53713 12.2872 9.46713C11.8785 10.3964 11.3138 11.4269 10.7573 12.3846C9.8745 13.9094 9.32475 14.7164 9 15.1971C8.6745 14.7164 8.1255 13.9094 7.242 12.3846C6.68625 11.4269 6.1215 10.3964 5.71275 9.46713C5.304 8.53713 5.0625 7.68438 5.0625 7.23438C5.0625 5.05188 6.8175 3.29688 9 3.29688ZM9 6.10938C8.70163 6.10938 8.41548 6.2279 8.2045 6.43888C7.99353 6.64986 7.875 6.93601 7.875 7.23438C7.875 7.53274 7.99353 7.81889 8.2045 8.02987C8.41548 8.24085 8.70163 8.35938 9 8.35938C9.29837 8.35938 9.58452 8.24085 9.7955 8.02987C10.0065 7.81889 10.125 7.53274 10.125 7.23438C10.125 6.93601 10.0065 6.64986 9.7955 6.43888C9.58452 6.2279 9.29837 6.10938 9 6.10938Z"
+                  fill="#B08194"
+                  id="Vector"
+                />
+              </g>
+            </svg>
+            <span>
+              エリア
+            </span>
+          </span>
+        </span>
+      </button>
+    </div>
+    <div
+      class="_gridItem_897752"
+      style="grid-area: searchFilter2;"
+    >
+      <button
+        class="mantine-focus-auto mantine-active _gridButton_897752 m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+        data-block="true"
+        data-size="compact-sm"
+        style="--button-height: var(--button-height-compact-sm); --button-padding-x: var(--button-padding-x-compact-sm); --button-fz: var(--mantine-font-size-sm); --button-color: var(--mantine-color-white);"
+        type="button"
+      >
+        <span
+          class="m_80f1301b mantine-Button-inner"
+        >
+          <span
+            class="m_811560b9 mantine-Button-label"
+          >
+            <svg
+              fill="none"
+              height="19"
+              style="margin-right: 6px;"
+              viewBox="0 0 18 19"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.24632 3.24488C7.05738 2.39952 6.4447 1.77832 5.71955 1.77832C4.9944 1.77832 4.38174 2.39952 4.19277 3.24488H2.00391V4.3448H4.19277C4.38171 5.19017 4.9944 5.81136 5.71955 5.81136C6.4447 5.81136 7.05735 5.19017 7.24632 4.3448H16.0007V3.24488H7.24632ZM5.71955 4.71144C5.32172 4.71144 4.99806 4.30026 4.99806 3.79484C4.99806 3.28943 5.32172 2.87824 5.71955 2.87824C6.11737 2.87824 6.44103 3.28943 6.44103 3.79484C6.44103 4.30026 6.11737 4.71144 5.71955 4.71144Z"
+                fill="#B08194"
+              />
+              <path
+                d="M9.0023 7.33887C8.27715 7.33887 7.66449 7.96007 7.47552 8.80543H2.00391V9.90535H7.47552C7.66446 10.7507 8.27715 11.3719 9.0023 11.3719C9.72745 11.3719 10.3401 10.7507 10.5291 9.90535H16.0007V8.80543H10.5291C10.3401 7.96007 9.72745 7.33887 9.0023 7.33887ZM9.0023 10.272C8.60447 10.272 8.28081 9.8608 8.28081 9.35539C8.28081 8.84998 8.60447 8.43879 9.0023 8.43879C9.40012 8.43879 9.72378 8.84998 9.72378 9.35539C9.72378 9.8608 9.40012 10.272 9.0023 10.272Z"
+                fill="#B08194"
+              />
+              <path
+                d="M5.71955 12.8984C4.9944 12.8984 4.38174 13.5196 4.19277 14.365H2.00391V15.4649H4.19277C4.38171 16.3103 4.9944 16.9315 5.71955 16.9315C6.4447 16.9315 7.05735 16.3103 7.24632 15.4649H16.0007V14.365H7.24632C7.05735 13.5196 6.4447 12.8984 5.71955 12.8984ZM5.71955 15.8316C5.32172 15.8316 4.99806 15.4204 4.99806 14.915C4.99806 14.4095 5.32172 13.9984 5.71955 13.9984C6.11737 13.9984 6.44103 14.4095 6.44103 14.915C6.44103 15.4204 6.11737 15.8316 5.71955 15.8316Z"
+                fill="#B08194"
+              />
+            </svg>
+            <span>
+              こだわり
+            </span>
+          </span>
+        </span>
+      </button>
+    </div>
+    <div
+      class="_gridItem_897752"
+      style="grid-area: searchFilter3;"
+    >
+      <button
+        class="mantine-focus-auto mantine-active _gridButton_897752 m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+        data-block="true"
+        data-size="compact-sm"
+        style="--button-height: var(--button-height-compact-sm); --button-padding-x: var(--button-padding-x-compact-sm); --button-fz: var(--mantine-font-size-sm); --button-color: var(--mantine-color-white);"
+        type="button"
+      >
+        <span
+          class="m_80f1301b mantine-Button-inner"
+        >
+          <span
+            class="m_811560b9 mantine-Button-label"
+          >
+            <svg
+              fill="none"
+              height="13"
+              style="margin-right: 6px;"
+              viewBox="0 0 13 13"
+              width="13"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.78125 0.109375V0.640625H0.65625V12.3281H12.3438V0.640625H10.2188V0.109375H9.15625V0.640625H3.84375V0.109375H2.78125ZM1.71875 1.70312H2.78125V2.23438H3.84375V1.70312H9.15625V2.23438H10.2188V1.70312H11.2812V2.76562H1.71875V1.70312ZM1.71875 3.82812H11.2812V11.2656H1.71875V3.82812ZM4.90625 4.89062V5.95312H5.96875V4.89062H4.90625ZM7.03125 4.89062V5.95312H8.09375V4.89062H7.03125ZM9.15625 4.89062V5.95312H10.2188V4.89062H9.15625ZM2.78125 7.01562V8.07812H3.84375V7.01562H2.78125ZM4.90625 7.01562V8.07812H5.96875V7.01562H4.90625ZM7.03125 7.01562V8.07812H8.09375V7.01562H7.03125ZM9.15625 7.01562V8.07812H10.2188V7.01562H9.15625ZM2.78125 9.14062V10.2031H3.84375V9.14062H2.78125ZM4.90625 9.14062V10.2031H5.96875V9.14062H4.90625ZM7.03125 9.14062V10.2031H8.09375V9.14062H7.03125Z"
+                fill="#B08194"
+              />
+            </svg>
+            <span>
+              エリア
+            </span>
+          </span>
+        </span>
+      </button>
+    </div>
+    <div
+      class="_gridItem_897752"
+      style="grid-area: searchFilter4;"
+    >
+      <button
+        class="mantine-focus-auto mantine-active _gridButton_897752 m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+        data-block="true"
+        data-size="compact-sm"
+        style="--button-height: var(--button-height-compact-sm); --button-padding-x: var(--button-padding-x-compact-sm); --button-fz: var(--mantine-font-size-sm); --button-color: var(--mantine-color-white);"
+        type="button"
+      >
+        <span
+          class="m_80f1301b mantine-Button-inner"
+        >
+          <span
+            class="m_811560b9 mantine-Button-label"
+          >
+            <svg
+              fill="none"
+              height="19"
+              style="margin-right: 6px;"
+              viewBox="0 0 18 19"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                id="Frame"
+              >
+                <path
+                  d="M9 2.73438C5.27775 2.73438 2.25 5.76213 2.25 9.48438C2.25 13.2066 5.27775 16.2344 9 16.2344C12.7222 16.2344 15.75 13.2066 15.75 9.48438C15.75 5.76213 12.7222 2.73438 9 2.73438ZM9 3.85938C12.1132 3.85938 14.625 6.37112 14.625 9.48438C14.625 12.5976 12.1132 15.1094 9 15.1094C8.26098 15.1106 7.529 14.9659 6.846 14.6836C6.16301 14.4013 5.54245 13.9871 5.01988 13.4645C4.49732 12.9419 4.08303 12.3214 3.80076 11.6384C3.5185 10.9554 3.37381 10.2234 3.375 9.48438C3.375 6.37112 5.88675 3.85938 9 3.85938ZM8.4375 4.98438V10.0469H12.375V8.92188H9.5625V4.98438H8.4375Z"
+                  fill="#B08194"
+                  id="Vector"
+                />
+              </g>
+            </svg>
+            <span>
+              時間
+            </span>
+          </span>
+        </span>
+      </button>
+    </div>
+    <div
+      class="_gridItem_897752"
+      style="grid-area: searchFilter5;"
+    >
+      <button
+        class="mantine-focus-auto mantine-active _gridButton_897752 m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+        data-block="true"
+        data-size="compact-sm"
+        style="--button-height: var(--button-height-compact-sm); --button-padding-x: var(--button-padding-x-compact-sm); --button-fz: var(--mantine-font-size-sm); --button-color: var(--mantine-color-white);"
+        type="button"
+      >
+        <span
+          class="m_80f1301b mantine-Button-inner"
+        >
+          <span
+            class="m_811560b9 mantine-Button-label"
+          >
+            <svg
+              fill="none"
+              height="19"
+              style="margin-right: 6px;"
+              viewBox="0 0 19 19"
+              width="19"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                id="Frame"
+              >
+                <path
+                  d="M5.5625 4.42188C4.66812 4.42425 3.81106 4.78059 3.17864 5.41301C2.54622 6.04543 2.18988 6.9025 2.1875 7.79688C2.1875 8.91288 2.7365 9.90663 3.5765 10.5216C2.093 11.2574 1.0625 12.7829 1.0625 14.5469H2.1875C2.18651 14.1034 2.27313 13.6641 2.44239 13.2541C2.61165 12.8442 2.86021 12.4718 3.17381 12.1582C3.4874 11.8446 3.85985 11.596 4.26977 11.4268C4.67969 11.2575 5.11901 11.1709 5.5625 11.1719C6.00599 11.1709 6.4453 11.2575 6.85523 11.4268C7.26515 11.596 7.6376 11.8446 7.95119 12.1582C8.26478 12.4718 8.51335 12.8442 8.68261 13.2541C8.85187 13.6641 8.93849 14.1034 8.9375 14.5469H10.0625C10.0615 14.1034 10.1481 13.6641 10.3174 13.2541C10.4867 12.8442 10.7352 12.4718 11.0488 12.1582C11.3624 11.8446 11.7349 11.596 12.1448 11.4268C12.5547 11.2575 12.994 11.1709 13.4375 11.1719C13.881 11.1709 14.3203 11.2575 14.7302 11.4268C15.1401 11.596 15.5126 11.8446 15.8262 12.1582C16.1398 12.4718 16.3883 12.8442 16.5576 13.2541C16.7269 13.6641 16.8135 14.1034 16.8125 14.5469H17.9375C17.9375 12.7829 16.907 11.2574 15.4235 10.5216C15.853 10.2087 16.2027 9.7989 16.444 9.32545C16.6854 8.852 16.8116 8.32829 16.8125 7.79688C16.8125 5.93987 15.2945 4.42188 13.4375 4.42188C12.5431 4.42425 11.6861 4.78059 11.0536 5.41301C10.4212 6.04543 10.0649 6.9025 10.0625 7.79688C10.0625 8.91288 10.6115 9.90663 11.4515 10.5216C10.6297 10.9255 9.94932 11.5687 9.5 12.3666C9.05068 11.5687 8.37035 10.9255 7.5485 10.5216C7.97803 10.2087 8.32768 9.7989 8.56903 9.32545C8.81038 8.852 8.93662 8.32829 8.9375 7.79688C8.9375 5.93987 7.4195 4.42188 5.5625 4.42188ZM5.5625 5.54688C6.81275 5.54688 7.8125 6.54662 7.8125 7.79688C7.8125 9.04712 6.81275 10.0469 5.5625 10.0469C4.31225 10.0469 3.3125 9.04712 3.3125 7.79688C3.3125 6.54662 4.31225 5.54688 5.5625 5.54688ZM13.4375 5.54688C14.6877 5.54688 15.6875 6.54662 15.6875 7.79688C15.6875 9.04712 14.6877 10.0469 13.4375 10.0469C12.1873 10.0469 11.1875 9.04712 11.1875 7.79688C11.1875 6.54662 12.1873 5.54688 13.4375 5.54688Z"
+                  fill="#B08194"
+                  id="Vector"
+                />
+              </g>
+            </svg>
+            <span>
+              人数
+            </span>
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storybook Snapshots > 'Components/Tabs' > DrawerTabs 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_89d60db1 mantine-Tabs-root"
+    data-orientation="horizontal"
+    data-variant="default"
+    id="mantine-i"
+    style="--tabs-radius: var(--mantine-radius-default); --tabs-color: var(--mantine-color-blue-filled);"
+  >
+    <div
+      aria-orientation="horizontal"
+      class="m_576c9d4 m_89d33d6d mantine-Tabs-list"
+      data-orientation="horizontal"
+      data-variant="default"
+      role="tablist"
+      style="background: rgb(255, 255, 255); --tabs-justify: space-between;"
+    >
+      <button
+        aria-controls="mantine-i-panel-host-club"
+        aria-selected="true"
+        class="mantine-focus-auto m_539e827b m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+        data-active="true"
+        data-orientation="horizontal"
+        data-variant="default"
+        id="mantine-i-tab-host-club"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="mantine-Tabs-tabLabel"
+        >
+          ホストクラブ
+        </span>
+      </button>
+      <button
+        aria-controls="mantine-i-panel-hosts"
+        aria-selected="false"
+        class="mantine-focus-auto m_539e827b m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+        data-orientation="horizontal"
+        data-variant="default"
+        id="mantine-i-tab-hosts"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="mantine-Tabs-tabLabel"
+        >
+          ホスト
+        </span>
+      </button>
+      <button
+        aria-controls="mantine-i-panel-hosts-id"
+        aria-selected="false"
+        class="mantine-focus-auto m_539e827b m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+        data-orientation="horizontal"
+        data-variant="default"
+        id="mantine-i-tab-hosts-id"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="mantine-Tabs-tabLabel"
+        >
+          店舗ランキング
+        </span>
+      </button>
+    </div>
+    <div
+      aria-labelledby="mantine-i-tab-host-club"
+      class="m_b0c91715 mantine-Tabs-panel"
+      data-orientation="horizontal"
+      id="mantine-i-panel-host-club"
+      role="tabpanel"
+    >
+      <div
+        class=""
+      >
+        <div>
+          host club
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="mantine-i-tab-hosts"
+      class="m_b0c91715 mantine-Tabs-panel"
+      data-orientation="horizontal"
+      id="mantine-i-panel-hosts"
+      role="tabpanel"
+      style="display: none;"
+    >
+      <div
+        class=""
+      >
+        <div>
+          host
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React app!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="mantine-i-tab-hosts-id"
+      class="m_b0c91715 mantine-Tabs-panel"
+      data-orientation="horizontal"
+      id="mantine-i-panel-hosts-id"
+      role="tabpanel"
+      style="display: none;"
+    >
+      <div
+        class="_emptyStateContainer_1b7be5"
+      >
+        <div
+          class=""
+          style="text-align: center;"
+        >
+          <svg
+            fill="none"
+            height="48"
+            viewBox="0 0 48 48"
+            width="48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              fill="white"
+              id="path-1-inside-1_14170_417723"
+            >
+              <path
+                d="M42 24C42 33.9411 33.9411 42 24 42C14.0589 42 6 33.9411 6 24C6 14.0589 14.0589 6 24 6C33.9411 6 42 14.0589 42 24Z"
+              />
+            </mask>
+            <path
+              d="M42 24C42 33.9411 33.9411 42 24 42C14.0589 42 6 33.9411 6 24C6 14.0589 14.0589 6 24 6C33.9411 6 42 14.0589 42 24Z"
+              fill="white"
+            />
+            <path
+              d="M41 24C41 33.3888 33.3888 41 24 41V43C34.4934 43 43 34.4934 43 24H41ZM24 41C14.6112 41 7 33.3888 7 24H5C5 34.4934 13.5066 43 24 43V41ZM7 24C7 14.6112 14.6112 7 24 7V5C13.5066 5 5 13.5066 5 24H7ZM24 7C33.3888 7 41 14.6112 41 24H43C43 13.5066 34.4934 5 24 5V7Z"
+              fill="#F2F2F2"
+              mask="url(#path-1-inside-1_14170_417723)"
+            />
+            <path
+              d="M18 18V19.8282L16.5 21.8282V22.0001C16.5 22.8224 17.1778 23.5002 18 23.5002V30.0004H26.0003V25.5002H27.0003V30.0004H30.0004V23.5002C30.8227 23.5002 31.5005 22.8224 31.5005 22.0001V21.8282L30.0004 19.8282V18H18ZM19.0001 19H29.0004V19.5H19.0001V19ZM18.7501 20.5001H29.2504L30.4536 22.1095C30.3989 22.3263 30.2348 22.5001 30.0004 22.5001C29.7231 22.5001 29.5004 22.2775 29.5004 22.0001H28.5004C28.5004 22.2775 28.2777 22.5001 28.0004 22.5001C27.723 22.5001 27.5004 22.2775 27.5004 22.0001H26.5003C26.5003 22.2775 26.2777 22.5001 26.0003 22.5001C25.723 22.5001 25.5003 22.2775 25.5003 22.0001H24.5003C24.5003 22.2775 24.2776 22.5001 24.0002 22.5001C23.7229 22.5001 23.5002 22.2775 23.5002 22.0001H22.5002C22.5002 22.2775 22.2775 22.5001 22.0002 22.5001C21.7228 22.5001 21.5002 22.2775 21.5002 22.0001H20.5001C20.5001 22.2775 20.2775 22.5001 20.0001 22.5001C19.7228 22.5001 19.5001 22.2775 19.5001 22.0001H18.5001C18.5001 22.2775 18.2774 22.5001 18 22.5001C17.7657 22.5001 17.6016 22.3263 17.5469 22.1095L18.7501 20.5001ZM19.0001 23.1095C19.2657 23.3498 19.6173 23.5002 20.0001 23.5002C20.3829 23.5002 20.7345 23.3498 21.0001 23.1095C21.2658 23.3498 21.6174 23.5002 22.0002 23.5002C22.383 23.5002 22.7346 23.3498 23.0002 23.1095C23.2658 23.3498 23.6174 23.5002 24.0002 23.5002C24.3831 23.5002 24.7346 23.3498 25.0003 23.1095C25.2659 23.3498 25.6175 23.5002 26.0003 23.5002C26.3831 23.5002 26.7347 23.3498 27.0003 23.1095C27.266 23.3498 27.6175 23.5002 28.0004 23.5002C28.3832 23.5002 28.7348 23.3498 29.0004 23.1095V29.0004H28.0004V24.5002H25.0003V29.0004H19.0001V23.1095ZM20.0001 24.5002V28.0003H24.0002V24.5002H20.0001ZM21.0001 25.5002H23.0002V27.0003H21.0001V25.5002Z"
+              fill="#C8C8C8"
+            />
+            <g
+              clip-path="url(#clip0_14170_417723)"
+            >
+              <rect
+                fill="white"
+                height="12"
+                rx="6"
+                width="12"
+                x="30"
+                y="30"
+              />
+              <path
+                d="M36.0013 30.668C33.0603 30.668 30.668 33.0603 30.668 36.0013C30.668 38.9423 33.0603 41.3346 36.0013 41.3346C38.9423 41.3346 41.3346 38.9423 41.3346 36.0013C41.3346 33.0603 38.9423 30.668 36.0013 30.668ZM36.0013 31.5569C38.4614 31.5569 40.4457 33.5412 40.4457 36.0013C40.4457 38.4614 38.4614 40.4457 36.0013 40.4457C33.5412 40.4457 31.5569 38.4614 31.5569 36.0013C31.5569 33.5412 33.5412 31.5569 36.0013 31.5569ZM35.5569 32.4457V36.4457H38.668V35.5569H36.4457V32.4457H35.5569Z"
+                fill="url(#paint0_linear_14170_417723)"
+              />
+            </g>
+            <rect
+              height="11"
+              rx="5.5"
+              stroke="white"
+              width="11"
+              x="30.5"
+              y="30.5"
+            />
+            <defs>
+              <lineargradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_14170_417723"
+                x1="31.7346"
+                x2="42.0845"
+                y1="31.7346"
+                y2="32.8214"
+              >
+                <stop
+                  stop-color="#99AEFB"
+                />
+                <stop
+                  offset="0.578125"
+                  stop-color="#F04AA4"
+                />
+                <stop
+                  offset="1"
+                  stop-color="#E7B282"
+                />
+              </lineargradient>
+              <clippath
+                id="clip0_14170_417723"
+              >
+                <rect
+                  fill="white"
+                  height="12"
+                  rx="6"
+                  width="12"
+                  x="30"
+                  y="30"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <p
+            class="mantine-focus-auto _emptyStateMessage_1b7be5 m_b6d8b162 mantine-Text-root"
+            data-size="sm"
+            style="--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm);"
+          >
+            Coming soon
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storybook Snapshots > 'Components/Tabs' > PagesTabs 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_89d60db1 mantine-Tabs-root"
+    data-orientation="horizontal"
+    data-variant="default"
+    id="mantine-i"
+    style="--tabs-radius: var(--mantine-radius-default); --tabs-color: var(--mantine-color-blue-filled);"
+  >
+    <div
+      aria-orientation="horizontal"
+      class="m_576c9d4 m_89d33d6d mantine-Tabs-list"
+      data-orientation="horizontal"
+      data-variant="default"
+      role="tablist"
+      style="background: rgb(255, 255, 255); --tabs-justify: center;"
+    >
+      <button
+        aria-controls="mantine-i-panel-host-club"
+        aria-selected="true"
+        class="mantine-focus-auto m_539e827b m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+        data-active="true"
+        data-orientation="horizontal"
+        data-variant="default"
+        id="mantine-i-tab-host-club"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="mantine-Tabs-tabLabel"
+        >
+          ホストクラブ
+        </span>
+      </button>
+      <button
+        aria-controls="mantine-i-panel-hosts"
+        aria-selected="false"
+        class="mantine-focus-auto m_539e827b m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+        data-orientation="horizontal"
+        data-variant="default"
+        id="mantine-i-tab-hosts"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="mantine-Tabs-tabLabel"
+        >
+          ホスト
+        </span>
+      </button>
+      <button
+        aria-controls="mantine-i-panel-hosts-id"
+        aria-selected="false"
+        class="mantine-focus-auto m_539e827b m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+        data-orientation="horizontal"
+        data-variant="default"
+        id="mantine-i-tab-hosts-id"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="mantine-Tabs-tabLabel"
+        >
+          店舗ランキング
+        </span>
+      </button>
+    </div>
+    <div
+      aria-labelledby="mantine-i-tab-host-club"
+      class="m_b0c91715 mantine-Tabs-panel"
+      data-orientation="horizontal"
+      id="mantine-i-panel-host-club"
+      role="tabpanel"
+    >
+      <div
+        class=""
+      >
+        <div>
+          host club
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="mantine-i-tab-hosts"
+      class="m_b0c91715 mantine-Tabs-panel"
+      data-orientation="horizontal"
+      id="mantine-i-panel-hosts"
+      role="tabpanel"
+      style="display: none;"
+    >
+      <div
+        class=""
+      >
+        <div>
+          host
+          <br />
+          <h2>
+            Welcome to my React!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React!
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React !
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React !
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React !
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+          <br />
+          <h2>
+            Welcome to my React !
+          </h2>
+          <p>
+            You clicked count times
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="mantine-i-tab-hosts-id"
+      class="m_b0c91715 mantine-Tabs-panel"
+      data-orientation="horizontal"
+      id="mantine-i-panel-hosts-id"
+      role="tabpanel"
+      style="display: none;"
+    >
+      <div
+        class="_emptyStateContainer_7805ad"
+      >
+        <div
+          class=""
+          style="text-align: center;"
+        >
+          <svg
+            fill="none"
+            height="48"
+            viewBox="0 0 48 48"
+            width="48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              fill="white"
+              id="path-1-inside-1_14170_417723"
+            >
+              <path
+                d="M42 24C42 33.9411 33.9411 42 24 42C14.0589 42 6 33.9411 6 24C6 14.0589 14.0589 6 24 6C33.9411 6 42 14.0589 42 24Z"
+              />
+            </mask>
+            <path
+              d="M42 24C42 33.9411 33.9411 42 24 42C14.0589 42 6 33.9411 6 24C6 14.0589 14.0589 6 24 6C33.9411 6 42 14.0589 42 24Z"
+              fill="white"
+            />
+            <path
+              d="M41 24C41 33.3888 33.3888 41 24 41V43C34.4934 43 43 34.4934 43 24H41ZM24 41C14.6112 41 7 33.3888 7 24H5C5 34.4934 13.5066 43 24 43V41ZM7 24C7 14.6112 14.6112 7 24 7V5C13.5066 5 5 13.5066 5 24H7ZM24 7C33.3888 7 41 14.6112 41 24H43C43 13.5066 34.4934 5 24 5V7Z"
+              fill="#F2F2F2"
+              mask="url(#path-1-inside-1_14170_417723)"
+            />
+            <path
+              d="M18 18V19.8282L16.5 21.8282V22.0001C16.5 22.8224 17.1778 23.5002 18 23.5002V30.0004H26.0003V25.5002H27.0003V30.0004H30.0004V23.5002C30.8227 23.5002 31.5005 22.8224 31.5005 22.0001V21.8282L30.0004 19.8282V18H18ZM19.0001 19H29.0004V19.5H19.0001V19ZM18.7501 20.5001H29.2504L30.4536 22.1095C30.3989 22.3263 30.2348 22.5001 30.0004 22.5001C29.7231 22.5001 29.5004 22.2775 29.5004 22.0001H28.5004C28.5004 22.2775 28.2777 22.5001 28.0004 22.5001C27.723 22.5001 27.5004 22.2775 27.5004 22.0001H26.5003C26.5003 22.2775 26.2777 22.5001 26.0003 22.5001C25.723 22.5001 25.5003 22.2775 25.5003 22.0001H24.5003C24.5003 22.2775 24.2776 22.5001 24.0002 22.5001C23.7229 22.5001 23.5002 22.2775 23.5002 22.0001H22.5002C22.5002 22.2775 22.2775 22.5001 22.0002 22.5001C21.7228 22.5001 21.5002 22.2775 21.5002 22.0001H20.5001C20.5001 22.2775 20.2775 22.5001 20.0001 22.5001C19.7228 22.5001 19.5001 22.2775 19.5001 22.0001H18.5001C18.5001 22.2775 18.2774 22.5001 18 22.5001C17.7657 22.5001 17.6016 22.3263 17.5469 22.1095L18.7501 20.5001ZM19.0001 23.1095C19.2657 23.3498 19.6173 23.5002 20.0001 23.5002C20.3829 23.5002 20.7345 23.3498 21.0001 23.1095C21.2658 23.3498 21.6174 23.5002 22.0002 23.5002C22.383 23.5002 22.7346 23.3498 23.0002 23.1095C23.2658 23.3498 23.6174 23.5002 24.0002 23.5002C24.3831 23.5002 24.7346 23.3498 25.0003 23.1095C25.2659 23.3498 25.6175 23.5002 26.0003 23.5002C26.3831 23.5002 26.7347 23.3498 27.0003 23.1095C27.266 23.3498 27.6175 23.5002 28.0004 23.5002C28.3832 23.5002 28.7348 23.3498 29.0004 23.1095V29.0004H28.0004V24.5002H25.0003V29.0004H19.0001V23.1095ZM20.0001 24.5002V28.0003H24.0002V24.5002H20.0001ZM21.0001 25.5002H23.0002V27.0003H21.0001V25.5002Z"
+              fill="#C8C8C8"
+            />
+            <g
+              clip-path="url(#clip0_14170_417723)"
+            >
+              <rect
+                fill="white"
+                height="12"
+                rx="6"
+                width="12"
+                x="30"
+                y="30"
+              />
+              <path
+                d="M36.0013 30.668C33.0603 30.668 30.668 33.0603 30.668 36.0013C30.668 38.9423 33.0603 41.3346 36.0013 41.3346C38.9423 41.3346 41.3346 38.9423 41.3346 36.0013C41.3346 33.0603 38.9423 30.668 36.0013 30.668ZM36.0013 31.5569C38.4614 31.5569 40.4457 33.5412 40.4457 36.0013C40.4457 38.4614 38.4614 40.4457 36.0013 40.4457C33.5412 40.4457 31.5569 38.4614 31.5569 36.0013C31.5569 33.5412 33.5412 31.5569 36.0013 31.5569ZM35.5569 32.4457V36.4457H38.668V35.5569H36.4457V32.4457H35.5569Z"
+                fill="url(#paint0_linear_14170_417723)"
+              />
+            </g>
+            <rect
+              height="11"
+              rx="5.5"
+              stroke="white"
+              width="11"
+              x="30.5"
+              y="30.5"
+            />
+            <defs>
+              <lineargradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_14170_417723"
+                x1="31.7346"
+                x2="42.0845"
+                y1="31.7346"
+                y2="32.8214"
+              >
+                <stop
+                  stop-color="#99AEFB"
+                />
+                <stop
+                  offset="0.578125"
+                  stop-color="#F04AA4"
+                />
+                <stop
+                  offset="1"
+                  stop-color="#E7B282"
+                />
+              </lineargradient>
+              <clippath
+                id="clip0_14170_417723"
+              >
+                <rect
+                  fill="white"
+                  height="12"
+                  rx="6"
+                  width="12"
+                  x="30"
+                  y="30"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <p
+            class="mantine-focus-auto _emptyStateMessage_7805ad m_b6d8b162 mantine-Text-root"
+            data-size="sm"
+            style="--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm);"
+          >
+            Coming soon
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
