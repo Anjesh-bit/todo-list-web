@@ -11,8 +11,15 @@ export const TodoPage = () => {
 
   return (
     <Box className={styles["todo-wrapper"]}>
-      <TodoForm initialData={selectedTodo} onClear={() => setSelectedTodo(null)} />
-      <TodoList onEdit={setSelectedTodo} />
+      {/* Left sidebar - Fixed form */}
+      <Box className={styles["todo-form"]}>
+        <TodoForm initialData={selectedTodo} onClear={() => setSelectedTodo(null)} />
+      </Box>
+
+      {/* Right side - Scrollable list */}
+      <Box className={styles["todo-list"]}>
+        <TodoList onEdit={setSelectedTodo} />
+      </Box>
     </Box>
   );
 };
