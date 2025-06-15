@@ -17,7 +17,7 @@ type TodoFormProps = {
 };
 
 export const TodoForm = ({ initialData, onClear }: TodoFormProps) => {
-  const isUpdateMode = Boolean(initialData?._id);
+  const isEditing = Boolean(initialData?._id);
 
   const { mutate, isPending } = useTodoUpsert();
   const { message: toastMessage, showToast } = useToast();
@@ -46,6 +46,7 @@ export const TodoForm = ({ initialData, onClear }: TodoFormProps) => {
       { id: initialData?._id, payload },
       {
         onSuccess: (response) => {
+          const { message = "" } = response || {};
           onClear();
           form.reset({
             name: "",
@@ -53,25 +54,27 @@ export const TodoForm = ({ initialData, onClear }: TodoFormProps) => {
             date: undefined,
           });
 
-          if (response?.message) showToast(response.message);
+          if (message) showToast(message);
         },
       }
     );
   };
 
   useEffect(() => {
-    if (initialData)
+    if (initialData) {
+      const { name, description, date } = initialData;
       form.reset({
-        name: initialData.name,
-        description: initialData.description,
-        date: new Date(initialData.date),
+        name,
+        description,
+        date: new Date(date),
       });
+    }
   }, [initialData, form]);
 
   return (
     <>
       <Box bg="white" p="xl" className={styles["form"]}>
-        <Text className={styles["form-header"]}>{isUpdateMode ? "Update Todo" : "Create a New Todo"}</Text>
+        <Text className={styles["form-header"]}>{isEditing ? "Update Todo" : "Create a New Todo"}</Text>
         <Form form={form} onSubmit={onSubmit}>
           <TextInput
             label="Name"
@@ -112,7 +115,7 @@ export const TodoForm = ({ initialData, onClear }: TodoFormProps) => {
             loading={isPending}
             classNames={{ root: styles["form-submit-button"] }}
           >
-            {isUpdateMode ? "Update Todo" : "Create Todo"}
+            {isEditing ? "Update Todo" : "Create Todo"}
           </Button>
         </Form>
 
