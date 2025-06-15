@@ -11,12 +11,10 @@ export const TodoPage = () => {
 
   return (
     <Box className={styles["todo-wrapper"]}>
-      {/* Left sidebar - Fixed form */}
       <Box className={styles["todo-form"]}>
         <TodoForm initialData={selectedTodo} onClear={() => setSelectedTodo(null)} />
       </Box>
 
-      {/* Right side - Scrollable list */}
       <Box className={styles["todo-list"]}>
         <TodoList onEdit={setSelectedTodo} />
       </Box>
