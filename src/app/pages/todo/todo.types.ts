@@ -7,7 +7,6 @@ export type BaseTodo = {
 export type Todo = BaseTodo & {
   _id: string;
   done: boolean;
-  message?: string;
 };
 
 export type UpsertTodoInput = {
@@ -17,6 +16,7 @@ export type UpsertTodoInput = {
 
 export type UpsertTodoResponse = {
   todo: Todo;
+  message?: string;
 };
 
 export type ToggleDoneInput = {

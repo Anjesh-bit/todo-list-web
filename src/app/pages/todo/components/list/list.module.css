@@ -5,6 +5,17 @@
   align-items: center;
 }
 
+.sticky {
+  position: sticky;
+  top: -18px;
+  z-index: 10;
+  background-color: white;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  height: fit-content;
+  background: #fff;
+}
+
 .todo-list {
   display: flex;
   flex-direction: column;
