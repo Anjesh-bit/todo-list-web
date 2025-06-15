@@ -1,4 +1,4 @@
-# Customer Web Application
+# Todo List Web Application
 
 Welcome to the Todo List Web
 
