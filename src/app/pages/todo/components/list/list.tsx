@@ -6,6 +6,7 @@ import styles from "./list.module.css";
 import { evaluateDateStatus } from "./list.utils";
 import { ReactComponent as DeleteIcon } from "../../../../../assets/static/icons/delete.svg";
 import { ReactComponent as EditIcon } from "../../../../../assets/static/icons/edit.svg";
+import { useToast } from "../../hooks/use-toast";
 import { useTodoInfiniteFetch } from "../../services/use-todo-fetch.services";
 import { useTodoDelete, useTodoToggleDone } from "../../services/use-todo-mutate.services";
 import { todoFiltrationOptions } from "../../todo.constant";
@@ -17,10 +18,13 @@ type TodoListProps = {
 
 export const TodoList = ({ onEdit }: TodoListProps) => {
   const [filterType, setFilterType] = React.useState("");
+  const observerRef = useRef<IntersectionObserver | null>(null);
+  const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   const { data, fetchNextPage, hasNextPage, isFetchingNextPage, isLoading } = useTodoInfiniteFetch(filterType);
   const { mutate: toggleDone } = useTodoToggleDone(filterType);
   const { mutate: deleteTodo } = useTodoDelete(filterType);
+  const { message: toastMessage, showToast } = useToast();
 
   const todos = useMemo(() => {
     return data?.pages.flatMap((page) => page.todos) || [];
@@ -31,10 +35,13 @@ export const TodoList = ({ onEdit }: TodoListProps) => {
   };
 
   const handleDelete = (id: string) => () => {
-    if (confirm("Are you sure you want to delete this todo?")) deleteTodo(id);
+    if (confirm("Are you sure you want to delete this todo?"))
+      deleteTodo(id, {
+        onSuccess: (response) => {
+          if (response?.message) showToast(response.message);
+        },
+      });
   };
-  const observerRef = useRef<IntersectionObserver | null>(null);
-  const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   const debouncedFetchNext = useCallback(() => {
     const handler = debounce(() => {
@@ -57,9 +64,7 @@ export const TodoList = ({ onEdit }: TodoListProps) => {
 
   useEffect(() => {
     const node = loadMoreRef.current;
-    if (!node) {
-      return;
-    }
+    if (!node) return;
 
     observerRef.current?.disconnect();
     observerRef.current = new IntersectionObserver(observerCallback, {
@@ -80,8 +85,9 @@ export const TodoList = ({ onEdit }: TodoListProps) => {
   }
 
   return (
-    <Box>
+    <Box style={{ position: "relative" }}>
       <SegmentedControl
+        classNames={{ root: styles["sticky"] }}
         fullWidth
         size="md"
         radius="md"
@@ -91,7 +97,7 @@ export const TodoList = ({ onEdit }: TodoListProps) => {
         onChange={setFilterType}
         mb="lg"
       />
-
+      {toastMessage && <div className={styles["toast"]}>{toastMessage}</div>}
       <Box className={styles["todo-list"]}>
         {todos.map(({ _id, name, description, date, done }) => {
           const { isExpired, formatted } = evaluateDateStatus(date);
@@ -140,9 +146,6 @@ export const TodoList = ({ onEdit }: TodoListProps) => {
         {isFetchingNextPage && (
           <Box mt="md" className={styles["loading-indicator"]}>
             <Loader color="violet" size="sm" />
-            <Text ta="center" mt="xs">
-              Loading more...
-            </Text>
           </Box>
         )}
 
