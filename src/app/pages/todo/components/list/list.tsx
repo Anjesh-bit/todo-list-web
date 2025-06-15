@@ -22,6 +22,7 @@ export const TodoList = ({ onEdit }: TodoListProps) => {
   const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   const { data, fetchNextPage, hasNextPage, isFetchingNextPage, isLoading } = useTodoInfiniteFetch(filterType);
+
   const { mutate: toggleDone } = useTodoToggleDone(filterType);
   const { mutate: deleteTodo } = useTodoDelete(filterType);
   const { message: toastMessage, showToast } = useToast();

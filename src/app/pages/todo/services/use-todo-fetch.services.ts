@@ -17,13 +17,14 @@ const todoList = async ({ pageParam, type }: { pageParam?: string | null; type: 
 export const useTodoInfiniteFetch = (type: string) => {
   return useInfiniteQuery({
     queryKey: ["todoList", type],
-    queryFn: ({ pageParam }) => todoList({ pageParam, type }),
+    queryFn: ({ pageParam = null }) => todoList({ pageParam, type }),
     initialPageParam: null,
     getNextPageParam: (lastPage) => {
       const lastTodo = lastPage.todos?.at(-1);
       return lastPage.hasMore && lastTodo ? lastTodo._id : undefined;
     },
-    staleTime: 1000 * 60 * 5,
+
+    staleTime: 0,
     refetchOnWindowFocus: false,
     retry: 1,
   });
